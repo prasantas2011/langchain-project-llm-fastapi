@@ -1,0 +1,3 @@
+LangChain is a framework to build applications powered by language models.
+It allows chaining of LLMs, prompts, tools, and memory for dynamic reasoning.
+Retrieval-Augmented Generation (RAG) enables LLMs to answer using your private data.

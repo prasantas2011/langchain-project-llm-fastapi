@@ -1,0 +1,23 @@
+LangChain Ecosystem
+Tool	Purpose
+LangChain	Core framework
+LangSmith	For debugging and monitoring your LLM apps
+LangServe	For deploying LangChain apps as APIs
+LangGraph	For building complex multi-step AI workflows
+
+
+-------------------------------------------------------------
+
+Full Roadmap (We’ll Go One by One)
+
+Now that the base is confirmed, we’ll explore all LangChain core features, one at a time (each with working code for your version).
+
+Step	Feature	Description
+✅ 1	LLM Basic Usage	Direct prompt → response
+2	PromptTemplate	Parameterized, reusable prompts
+3	Chain	Combine multiple steps (prompt → LLM → output parser)
+4	Memory	Context retention for multi-turn conversations
+5	Tool / Function Calling	Let the LLM use Python tools dynamically
+6	Agents	LLMs that decide which tool to use automatically
+7	Retrieval-Augmented Generation (RAG)	Use your documents + embeddings for context
+8	Custom Chat App Integration	Real project example (like your FastAPI or Flask chatbot)
